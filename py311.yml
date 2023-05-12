@@ -70,6 +70,7 @@ dependencies:
 - torchvision
 - datasets
 - pytables
+- dask
 
 - pip:
   - plotly-geo
