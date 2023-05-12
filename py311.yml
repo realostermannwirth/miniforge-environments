@@ -54,7 +54,7 @@ dependencies:
 - pyodbc
 - selenium
 - pytesseract
-- tensorflow
+# - tensorflow
 - lxml
 - markdown
 # - vaex
