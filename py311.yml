@@ -53,11 +53,8 @@ dependencies:
 - paramiko
 - pyodbc
 - selenium
-- PyGObject
 - pytesseract
-# - tensorflow=2
-# - PySide6
-- pyqt
+- tensorflow
 - lxml
 - markdown
 # - vaex
@@ -78,12 +75,10 @@ dependencies:
   - memory-profiler
   - plotly-geo
   - kaleido
-  - customtkinter
-  # - PyQt6
   - opencv-python
-  - PyAutoGUI
+  # - PyAutoGUI
   - h2o
-  - pyinstaller
+  # - pyinstaller
   - polars[all]
   - vtreat
   - osmium
