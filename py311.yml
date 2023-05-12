@@ -1,4 +1,4 @@
-name: py3.11
+name: py311
 channels:
 # - defaults
 # - anaconda

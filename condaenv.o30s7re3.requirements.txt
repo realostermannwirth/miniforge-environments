@@ -1,0 +1,8 @@
+plotly-geo
+kaleido
+opencv-python
+h2o
+polars[all]
+vtreat
+osmium
+geojson
