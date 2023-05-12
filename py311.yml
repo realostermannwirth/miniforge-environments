@@ -1,0 +1,87 @@
+name: py3.11
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+- huggingface
+- pytorch
+
+dependencies:
+- python >=3.11
+- pip
+- py4j
+- nomkl
+- pandas
+- jedi
+- python-dateutil
+- numpy
+- cairo
+- pillow
+- matplotlib
+- pyarrow
+- ipython
+- nbformat
+- scipy
+- jpype1
+- python-flatbuffers
+- h5py
+- protobuf
+- libiconv
+- asammdf
+- beautifulsoup4
+- cloudpickle
+- nltk
+- openpyxl
+- packaging
+- pytz
+- pyyaml
+- requests
+- scikit-learn
+- seaborn
+- statsmodels
+- pyspark
+- pyppeteer
+- great-expectations
+- dash
+- jupyter-dash
+- notebook
+- ipywidgets
+- plotly
+- voila-gridstack
+- jupyterlab
+- voila
+- paramiko
+- pyodbc
+- selenium
+- PyGObject
+- pytesseract
+# - tensorflow=2
+# - PySide6
+- pyqt
+- lxml
+- markdown
+# - vaex
+- folium
+- geopandas
+- xyzservices
+- lightgbm
+- hyperopt
+- sweetviz
+- scikit-optimize
+- pandas-profiling
+- pytorch
+- torchvision
+- datasets
+
+- pip:
+  - memory-profiler
+  - plotly-geo
+  - kaleido
+  - customtkinter
+  # - PyQt6
+  - opencv-python
+  - PyAutoGUI
+  - h2o
+  - pyinstaller
+  - polars[all]
+  - vtreat

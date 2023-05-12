@@ -1,0 +1,13 @@
+name: py3.10_tensorflow_knime
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+dependencies:
+- python=3.10
+- pip
+- tensorflow<=1.15
+- numpy
+- h5py
+- pandas
+- pyarrow
