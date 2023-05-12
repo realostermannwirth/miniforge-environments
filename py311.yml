@@ -72,7 +72,6 @@ dependencies:
 - pytables
 
 - pip:
-  - memory-profiler
   - plotly-geo
   - kaleido
   - opencv-python
