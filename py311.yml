@@ -72,6 +72,7 @@ dependencies:
 - pytorch
 - torchvision
 - datasets
+- pytables
 
 - pip:
   - memory-profiler
