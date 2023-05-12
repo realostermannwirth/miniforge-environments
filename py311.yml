@@ -86,3 +86,4 @@ dependencies:
   - pyinstaller
   - polars[all]
   - vtreat
+  - osmium
