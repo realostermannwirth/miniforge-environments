@@ -71,6 +71,8 @@ dependencies:
 - datasets
 - pytables
 - dask
+- osmnx
+- pyrosm
 
 - pip:
   - plotly-geo
