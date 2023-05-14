@@ -71,7 +71,7 @@ dependencies:
 - datasets
 - pytables
 - dask
-- osmnx
+# - osmnx
 - pyrosm
 
 - pip:
