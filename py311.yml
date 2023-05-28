@@ -73,6 +73,7 @@ dependencies:
 - dask
 # - osmnx
 # - pyrosm
+- netCDF4
 
 - pip:
   - plotly-geo
