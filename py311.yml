@@ -86,3 +86,8 @@ dependencies:
   - vtreat
   - osmium
   - geojson
+  - diffusers
+  - transformers
+  - accelerate
+  - safetensors
+  - xformers
