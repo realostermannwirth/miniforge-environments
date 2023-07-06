@@ -11,7 +11,7 @@ dependencies:
 - pip
 - py4j
 - nomkl
-- pandas
+- pandas[all]>=2.0.0
 - jedi
 - python-dateutil
 - numpy
