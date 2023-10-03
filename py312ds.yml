@@ -1,0 +1,65 @@
+name: py312ds
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+
+dependencies:
+- python >=3.12
+- pip
+- py4j
+- nomkl
+- pandas[all]>=2.0.0
+- jedi
+- python-dateutil
+- numpy
+- cairo
+- pillow
+- matplotlib
+- pyarrow
+- ipython
+- nbformat
+- scipy
+- jpype1
+- python-flatbuffers
+- h5py
+- protobuf
+- libiconv
+- asammdf
+- beautifulsoup4
+- cloudpickle
+- nltk
+- openpyxl
+- packaging
+- pytz
+- pyyaml
+- requests
+- scikit-learn
+- seaborn
+- statsmodels
+- pyspark
+- great-expectations
+- dash
+- jupyter-dash
+- notebook
+- ipywidgets
+- plotly
+- voila-gridstack
+- jupyterlab
+- voila
+- pyodbc
+- lxml
+- lightgbm
+- hyperopt
+- sweetviz
+- scikit-optimize
+- pandas-profiling
+- pytables
+- dask
+
+- pip:
+  - kaleido
+  - h2o
+  # - polars[all]
+  - vtreat
+  - streamlit
