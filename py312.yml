@@ -1,0 +1,35 @@
+name: py312
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+- plotly
+
+dependencies:
+- python=3.12
+- pip
+- numpy
+- pandas
+# - pandas-profiling    # 04.10.2023 Noch nicht kompatibel mit Py3.12
+- ipykernel
+# - statsmodels         # 04.10.2023 Noch nicht kompatibel mit Py3.12
+# - matplotlib          # 04.10.2023 Noch nicht kompatibel mit Py3.12
+# - seaborn             # 04.10.2023 Noch nicht kompatibel mit Py3.12
+- plotly
+- plotly-geo
+# - sweetviz            # 04.10.2023 Noch nicht kompatibel mit Py3.12
+- ipywidgets
+- folium
+# - geopandas           # 04.10.2023 Noch nicht kompatibel mit Py3.12
+# - scikit-learn        # 04.10.2023 Noch nicht kompatibel mit Py3.12
+# - scikit-optimize     # 04.10.2023 Noch nicht kompatibel mit Py3.12
+- pytables
+- openpyxl
+# - scipy               # 04.10.2023 Noch nicht kompatibel mit Py3.12
+- beautifulsoup4
+- requests
+# - great-expectations  # 04.10.2023 Noch nicht kompatibel mit Py3.12
+
+- pip:
+  # - polars[all]       # 04.10.2023 Noch nicht kompatibel mit Py3.12
+  # - streamlit         # 04.10.2023 Noch nicht kompatibel mit Py3.12

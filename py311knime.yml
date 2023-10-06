@@ -1,0 +1,37 @@
+name: py311knime
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+
+dependencies:
+- python>=3.11
+- pip
+- beautifulsoup4
+- cloudpickle
+- ipython
+- jedi
+- matplotlib-base
+- markdown
+- nbformat
+- nltk
+- nomkl
+- numpy
+- openpyxl
+- pandas
+- packaging
+- pillow
+- plotly
+- py4j
+- pyarrow
+- python-dateutil
+- pytz
+- pyyaml
+- requests
+- scikit-learn
+- scipy
+- seaborn
+- statsmodels
+
+- pip:
+  - polars[all]

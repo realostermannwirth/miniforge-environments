@@ -1,9 +1,0 @@
-name: py_orange
-channels:
-- defaults
-- anaconda
-- conda-forge
-
-dependencies:
-- pyqt
-- orange3

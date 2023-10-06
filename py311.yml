@@ -3,92 +3,33 @@ channels:
 # - defaults
 # - anaconda
 - conda-forge
-- huggingface
-- pytorch
+- plotly
 
 dependencies:
-- python >=3.11
+- python=3.11
 - pip
-- py4j
-- nomkl
-- pandas[all]>=2.0.0
-- jedi
-- python-dateutil
 - numpy
-- cairo
-- pillow
-- matplotlib
-- pyarrow
-- ipython
-- nbformat
-- scipy
-- jpype1
-- python-flatbuffers
-- h5py
-- protobuf
-- libiconv
-- asammdf
-- beautifulsoup4
-- cloudpickle
-- nltk
-- openpyxl
-- packaging
-- pytz
-- pyyaml
-- requests
-- scikit-learn
-- seaborn
+- pandas
+- pandas-profiling
+- ipykernel
 - statsmodels
-- pyspark
-- pyppeteer
-- great-expectations
-- dash
-- jupyter-dash
-- notebook
-- ipywidgets
+- matplotlib
+- seaborn
 - plotly
-- voila-gridstack
-- jupyterlab
-- voila
-- paramiko
-- pyodbc
-- selenium
-- pytesseract
-# - tensorflow
-- lxml
-- markdown
-# - vaex
+- plotly-geo
+- sweetviz
+- ipywidgets
 - folium
 - geopandas
-- xyzservices
-- lightgbm
-- hyperopt
-- sweetviz
+- scikit-learn
 - scikit-optimize
-- pandas-profiling
-- pytorch
-- torchvision
-- datasets
 - pytables
-- dask
-- osmnx
-# - pyrosm
-- netCDF4
+- openpyxl
+- scipy
+- beautifulsoup4
+- requests
+- great-expectations
 
 - pip:
-  - plotly-geo
-  - kaleido
-  - opencv-python
-  - PyAutoGUI
-  - h2o
-  # - pyinstaller
   - polars[all]
-  - vtreat
-  - osmium
-  - geojson
-  - diffusers
-  - transformers
-  - accelerate
-  - safetensors
-  - xformers
   - streamlit
