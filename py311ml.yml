@@ -11,6 +11,8 @@ dependencies:
 - pandas
 - pyarrow
 - h5py
+- ipykernel
 
 - pip:
   - tensorflow
+  - tensorflow-metal
