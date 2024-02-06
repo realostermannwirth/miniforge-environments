@@ -35,3 +35,4 @@ dependencies:
 
 - pip:
   - polars[all]
+  - requests-html
