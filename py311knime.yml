@@ -29,9 +29,12 @@ dependencies:
 - pyyaml
 - requests
 - scikit-learn
+- scikit-optimize
 - scipy
 - seaborn
 - statsmodels
+- selenium
+- opencv
 
 - pip:
   - polars[all]

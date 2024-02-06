@@ -29,9 +29,14 @@ dependencies:
 - beautifulsoup4
 - requests
 - great-expectations
+- selenium
+- opencv
+- pillow
+- nltk
 
 - pip:
   - polars[all]
   - streamlit
   - tensorflow
   - tensorflow-metal
+  - requests-html

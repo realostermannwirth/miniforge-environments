@@ -29,6 +29,10 @@ dependencies:
 - beautifulsoup4
 - requests
 - great-expectations
+- selenium
+- opencv
+- pillow
+- nltk
 
 - pip:
   - polars[all]

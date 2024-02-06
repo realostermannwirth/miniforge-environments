@@ -12,6 +12,10 @@ dependencies:
 - pyarrow
 - h5py
 - ipykernel
+- opencv
+- nltk
+- scikit-learn
+- scikit-optimize
 
 - pip:
   - tensorflow
