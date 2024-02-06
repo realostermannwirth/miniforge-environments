@@ -33,3 +33,4 @@ dependencies:
 - pip:
   - polars[all]
   - streamlit
+  - requests-html
