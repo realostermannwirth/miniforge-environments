@@ -36,8 +36,8 @@ dependencies:
 - statsmodels
 - selenium
 - opencv
-- playwright
-- pytest-playwright
+- microsoft::playwright
+- microsoft::pytest-playwright
 
 - pip:
   - polars[all]

@@ -34,8 +34,8 @@ dependencies:
 - opencv
 - pillow
 - nltk
-- playwright
-- pytest-playwright
+- microsoft::playwright
+- microsoft::pytest-playwright
 
 - pip:
   - polars[all]
