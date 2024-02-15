@@ -3,6 +3,7 @@ channels:
 # - defaults
 # - anaconda
 - conda-forge
+- microsoft
 
 dependencies:
 - python=3.11
@@ -35,6 +36,8 @@ dependencies:
 - statsmodels
 - selenium
 - opencv
+- playwright
+- pytest-playwright
 
 - pip:
   - polars[all]
