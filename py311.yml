@@ -4,7 +4,6 @@ channels:
 # - anaconda
 - conda-forge
 - plotly
-- microsoft
 
 dependencies:
 - python=3.11
@@ -34,8 +33,6 @@ dependencies:
 - opencv
 - pillow
 - nltk
-- microsoft::playwright
-- microsoft::pytest-playwright
 
 - pip:
   - polars[all]
@@ -43,3 +40,4 @@ dependencies:
   - tensorflow
   - tensorflow-metal
   - requests-html
+  - pytest-playwright
