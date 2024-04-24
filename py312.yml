@@ -41,6 +41,9 @@ dependencies:
   - polars[all]
   - streamlit
   - tensorflow
-  - tensorflow-metal
+  # - tensorflow-metal
   - requests-html
   - pytest-playwright
+  - torch
+  - torchvision
+  - torchaudio

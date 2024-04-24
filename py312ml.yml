@@ -19,4 +19,7 @@ dependencies:
 
 - pip:
   - tensorflow
-  - tensorflow-metal
+  # - tensorflow-metal
+  - torch
+  - torchvision
+  - torchaudio
