@@ -1,11 +1,11 @@
-name: py311ml
+name: py312ml
 channels:
 # - defaults
 # - anaconda
 - conda-forge
 
 dependencies:
-- python=3.11
+- python=3.12
 - pip
 - numpy
 - pandas

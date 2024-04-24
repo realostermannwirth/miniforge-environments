@@ -10,7 +10,7 @@ dependencies:
 - pip
 - numpy
 - pandas
-# - ydata-profiling
+- ydata-profiling
 - ipykernel
 - statsmodels
 - matplotlib
@@ -33,9 +33,14 @@ dependencies:
 - opencv
 - pillow
 - nltk
+- cartopy
+- osmnx
+- pyrosm
 
 - pip:
   - polars[all]
   - streamlit
+  - tensorflow
+  - tensorflow-metal
   - requests-html
   - pytest-playwright

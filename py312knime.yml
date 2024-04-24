@@ -1,11 +1,11 @@
-name: py311knime
+name: py312knime
 channels:
 # - defaults
 # - anaconda
 - conda-forge
 
 dependencies:
-- python=3.11
+- python=3.12
 - pip
 - beautifulsoup4
 - cloudpickle
