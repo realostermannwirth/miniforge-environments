@@ -36,6 +36,12 @@ dependencies:
 - cartopy
 - osmnx
 - pyrosm
+- camelot-py
+- xarray
+- dask
+- netCDF4
+- bottleneck
+- h5py
 
 - pip:
   - polars[all]
@@ -47,3 +53,10 @@ dependencies:
   - torch
   - torchvision
   - torchaudio
+  - tabula-py
+  - pdfplumber
+  - PyMuPDF
+  - georinex
+  - gpxpy
+  - gpx-cmd-tools
+  # - gnss-lib-py

@@ -35,8 +35,20 @@ dependencies:
 - statsmodels
 - selenium
 - opencv
+- camelot-py
+- xarray
+- dask
+- netCDF4
+- bottleneck
+- h5py
 
 - pip:
   - polars[all]
   - requests-html
   - pytest-playwright
+  - tabula-py
+  - pdfplumber
+  - PyMuPDF
+  - georinex
+  - gpxpy
+  # - gnss-lib-py
