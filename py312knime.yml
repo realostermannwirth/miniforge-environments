@@ -43,6 +43,7 @@ dependencies:
 - h5py
 - scrapy
 - lxml
+- lxml-html-clean
 - cryptography
 - numba
 
