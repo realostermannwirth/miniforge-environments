@@ -45,6 +45,7 @@ dependencies:
 - scrapy
 - lxml
 - cryptography
+- numba
 
 - pip:
   - polars[all]
@@ -63,3 +64,4 @@ dependencies:
   - gpxpy
   - gpx-cmd-tools
   # - gnss-lib-py
+  - duckdb
