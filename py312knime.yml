@@ -46,6 +46,7 @@ dependencies:
 - lxml-html-clean
 - cryptography
 - numba
+- shapely
 
 - pip:
   - polars[all]
