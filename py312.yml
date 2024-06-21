@@ -48,6 +48,7 @@ dependencies:
 - cryptography
 - numba
 - shapely
+- ruff
 
 - pip:
   - polars[all]

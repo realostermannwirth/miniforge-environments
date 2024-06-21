@@ -16,6 +16,7 @@ dependencies:
 - nltk
 - scikit-learn
 - scikit-optimize
+- ruff
 
 - pip:
   - tensorflow
