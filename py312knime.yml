@@ -56,8 +56,8 @@ dependencies:
   - tabula-py
   - pdfplumber
   - PyMuPDF
-  - georinex
-  - gpxpy
+  # - georinex
+  # - gpxpy
   # - gnss-lib-py
   - duckdb
   - dropbox
