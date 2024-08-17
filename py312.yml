@@ -10,7 +10,7 @@ dependencies:
 - pip
 - numpy
 - pandas
-# - ydata-profiling
+- ydata-profiling
 - ipykernel
 - statsmodels
 - matplotlib
@@ -21,30 +21,30 @@ dependencies:
 - ipywidgets
 - folium
 - geopandas
-# - scikit-learn
-# - scikit-optimize
+- scikit-learn
+- scikit-optimize
 - pytables
 - openpyxl
-# - scipy
+- scipy
 - beautifulsoup4
 - requests
 - great-expectations
 - selenium
-# - opencv
+- opencv
 - pillow
 - nltk
 - cartopy
-# - osmnx
-# - pyrosm
+- osmnx
+- pyrosm
 - camelot-py
 - xarray
 - dask
 - netCDF4
 - bottleneck
 - h5py
-# - scrapy
+- scrapy
 - lxml
-# - lxml-html-clean
+- lxml-html-clean
 - cryptography
 - numba
 - shapely
@@ -53,20 +53,20 @@ dependencies:
 - pip:
   - polars[all]
   - streamlit
-  # - tensorflow
-  # - tensorflow-metal
+  - tensorflow
+  - tensorflow-metal
   - requests-html
   - pytest-playwright
-  # - torch
-  # - torchvision
-  # - torchaudio
+  - torch
+  - torchvision
+  - torchaudio
   - tabula-py
   - pdfplumber
   - PyMuPDF
-  # - georinex
-  # - gpxpy
-  # - gpx-cmd-tools
-  # - gnss-lib-py
+  - georinex
+  - gpxpy
+  - gpx-cmd-tools
+  - gnss-lib-py
   - duckdb
   - dropbox
   - onedrivesdk

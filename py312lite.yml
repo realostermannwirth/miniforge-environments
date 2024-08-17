@@ -1,0 +1,26 @@
+name: py312lite
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+
+dependencies:
+- python=3.12
+- pip
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- ipykernel
+- ipywidgets
+- requests
+- lxml
+- lxml-html-clean
+- numba
+- beautifulsoup4
+- ruff
+
+- pip:
+  - polars[all]
+  - duckdb
+  - requests-html
