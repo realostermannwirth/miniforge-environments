@@ -17,6 +17,7 @@ dependencies:
 - scikit-learn
 - scikit-optimize
 - ruff
+- python-dotenv
 
 - pip:
   - tensorflow

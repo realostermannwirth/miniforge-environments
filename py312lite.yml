@@ -19,6 +19,7 @@ dependencies:
 - numba
 - beautifulsoup4
 - ruff
+- python-dotenv
 
 - pip:
   - polars[all]

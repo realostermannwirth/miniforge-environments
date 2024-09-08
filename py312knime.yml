@@ -48,6 +48,7 @@ dependencies:
 - numba
 - shapely
 - ruff
+- python-dotenv
 
 - pip:
   - polars[all]
