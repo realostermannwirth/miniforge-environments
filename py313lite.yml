@@ -1,0 +1,27 @@
+name: py313lite
+channels:
+# - defaults
+# - anaconda
+- conda-forge
+
+dependencies:
+- python=3.13
+- pip
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- ipykernel
+- ipywidgets
+- requests
+- lxml
+- lxml-html-clean
+# - numba   12.10.2024 noch nicht kompatibel für Python 3.13 auf macOS
+- beautifulsoup4
+- ruff
+- python-dotenv
+
+- pip:
+  # - polars[all]   12.10.2024 fehlende Version von connectorx für Py3.13 auf macOS
+  - duckdb
+  - requests-html
